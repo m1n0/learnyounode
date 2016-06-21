@@ -1,0 +1,8 @@
+{
+  "name": "01.learnyournode",
+  "version": "1.0.0",
+  "dependencies": {
+    "bl": "^1.1.2"
+  },
+  "devDependencies": {}
+}
