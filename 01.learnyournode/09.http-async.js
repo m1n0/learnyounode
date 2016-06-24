@@ -9,26 +9,25 @@ var urls = [
 
 var result = []
 
-var i = 0;
+var count = 0;
 
-get(urls[i]);
+for (var i = 0; i < urls.length; i++) {
+  get(i);
+}
 
-function get(url) {
-  http.get(url, function(response) {
+function get(index) {
+  http.get(urls[index], function(response) {
     response.pipe(bl(function (err, data) {
       if (err)
         return console.error(err)
 
-      result.push(data.toString())
-      i++;
+      result[index] = data.toString()
+      count++;
 
-      if (i > urls.length -1) {
+      if (count > urls.length -1) {
         for (data of result) {
           console.log(data)
         }
-      }
-      else {
-        get(urls[i]);
       }
     }))
   })
