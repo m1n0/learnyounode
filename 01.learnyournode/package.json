@@ -2,7 +2,8 @@
   "name": "01.learnyournode",
   "version": "1.0.0",
   "dependencies": {
-    "bl": "^1.1.2"
+    "bl": "^1.1.2",
+    "strftime": "^0.9.2"
   },
   "devDependencies": {}
 }
