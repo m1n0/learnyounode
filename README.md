@@ -5,3 +5,4 @@ Probably completely useless, but I don't feel safe leaving my computer without c
 
 Stuff I played with:
 - [Learn You Node] (https://github.com/workshopper/learnyounode)
+- [Javascript Scope Chains And Closures Workshop] (https://github.com/jesstelford/scope-chains-closures)
